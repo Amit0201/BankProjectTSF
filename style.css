@@ -1,0 +1,46 @@
+
+#WebPage{
+  background-color: Beige;
+}
+
+#FirstHeading{
+  text-align: center;
+  border: 2px solid black;
+  background-color: yellow;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+#image{
+  height: 450px;
+  width: 450px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+}
+
+#UnorderedList{
+  font-family:sans-serif;
+  font-size: 20px;
+}
+
+@keyframes transitionIn {
+  from{
+    opacity: 0;
+    transform: rotate(-10deg);
+  }
+  to{
+    opacity: 1;
+    transform: rotate(0);
+  }
+}
+
+.MainWebPage{
+  animation: transitionIn 1.0s;
+}
+
+.Contents{
+  text-align: center;
+  text-shadow: 2px 2px 4px aqua;
+  text-decoration: underline;
+  font-size: 25px;
+  font-family: fantasy;
+}
